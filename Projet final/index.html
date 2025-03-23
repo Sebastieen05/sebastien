@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css" />
+    <title>Portfolio - Sébastien Duverseau</title>
+</head>
+<body>
+   
+<header class="header">
+    <h3 class="title">Duverseau <span class="cyan">Sébastien</span></h3>
+    <ul class="menu">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#a-propos">À propos</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</header>
+
+<div class="main">
+    <section id="accueil" >
+        <div class="home">
+            <label class="text">
+                <center>
+                    Je suis <span class="cyan">Sébastien</span>, Développeur en devenir passionné par le web et le design!
+                </center>
+            </label>
+            <center>
+                <br><br>
+                <a href="#projets" class="btn">Voir mes projets</a>   
+            </center>
+        </div>
+        <div class="home-photo">
+            <img src="images/about-image.png" alt="Photo de Sébastien">
+        </div>
+    </section>
+    <section class="about">
+             <center>
+         <h4 style="color: rgb(1, 172, 172);">A propos</h4>
+         </center>  
+         <div class="text-about">
+<label>
+    Je m'appelle [Nom], passionne par la création de sites web modernes et interactifs
+
+    Je suis actuellement étudiant(e) en dévetuppement web
+    
+    et je cherche à améliorer mes compétences en Javascript, HTML et CSS
+    
+    J'adore transformer mes idées en projets concrets et expérimenter avec les nouvelles technologies.
+    </label><br>
+    <a class="btn" style="margin-top: 10px;">Telecharger mon cv</a>
+         </div>
+         <div class="img-about">
+            <img src="images/profil.png">
+         </div>
+    </section>
+    <section id="mes-projets" class="projects">
+        <center><h4 style="color: rgb(6, 209, 209);">Mes projets</h4></center>
+    <section class="box">
+        <center>
+            <p>Un mini-jeu interactif en JavaScript qui utilise des événements DOM.</p>
+           
+            <a class="btn" style="margin-top: 10px;">Voir</a>
+   
+        </center>
+    
+    </section>
+    
+    <section class="box">
+        <center>
+            <p>Un mini-jeu interactif en JavaScript qui utilise des événements DOM.</p>
+            <a class="btn" style="margin-top: 10px;">Voir</a>
+       
+    </center>
+    </section>
+    
+    <section class="box">
+        <center>
+            <p>Un mini-jeu interactif en JavaScript qui utilise des événements DOM.</p>
+            <a class="btn" style="margin-top: 10px;">Voir</a>
+   
+        </center>
+    </section>
+    </section>
+    <section id="mes-competences" class="competences">
+        <center><h4 style="color: rgb(6, 209, 209);">Mes Compétences</h4></center>
+    <section class="box" style="width: 40%;">
+        <center><h4>Soft Skills</h4></center>
+     <div>
+        <h5 style="width:90%;text-align: left;">Gestion de projet</h5>
+    </div>
+        <div class="progressbar">
+        <div class="progress"></div>
+       </div>
+    <h5 style="width:90%;text-align: left;">Resoulution de probleme</h5>
+   
+        <div class="progressbar">
+        <div class="progress" style="width: 80%;"></div>
+       </div>   
+
+       <h5 style="width:90%;text-align: left;">Adaptabilité</h5>
+   
+        <div class="progressbar">
+        <div class="progress" style="width: 85%;"></div>
+       </div>   
+    </section>
+    <section class="box" style="width: 40%;">
+        <center><h4>Hard Skills</h4></center>
+        <h5 style="width:90%;text-align: left;">JavaScript</h5>
+    
+        <div class="progressbar">
+        <div class="progress"></div>
+       </div>
+       <h5 style="width:90%;text-align: left;">Css</h5>
+   
+       <div class="progressbar">
+       <div class="progress" style="width: 80%;"></div>
+      </div>   
+
+      <h5 style="width:90%;text-align: left;">Html</h5>
+  
+       <div class="progressbar">
+       <div class="progress" style="width: 85%;"></div>
+      </div>   
+     </section>
+  
+    </section>
+
+    <div id="contact" class="contact">
+        <center>
+            <h4>Contact</h4>
+            <form>
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom" required>
+                <button type="submit">Envoyer</button>
+            </form>
+        </center>
+    </div>
+</div>
+
+<footer>
+    <center>Designed by Sébastien Duverseau with HTML, CSS & JS | Tous droits réservés - 2025</center>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
